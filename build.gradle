@@ -35,8 +35,9 @@ dependencies {
 
     implementation 'org.springframework.boot:spring-boot-starter-log4j2'
 
-    //open api받기위해 resttemplate대신 webclient방식 사용
-    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    implementation 'org.modelmapper:modelmapper:3.1.0'
+
+
 }
 
 configurations {

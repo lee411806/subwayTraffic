@@ -1,22 +1,27 @@
-[2024-06-10 21:10:27.879]  INFO ${sys:PID} --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.zerock.b03.repository.SubwayRepositoryTests]: SubwayRepositoryTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-[2024-06-10 21:10:27.971]  INFO ${sys:PID} --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.zerock.b03.B03Application for test class org.zerock.b03.repository.SubwayRepositoryTests
-[2024-06-10 21:10:28.286]  INFO 100656 --- [           main] o.z.b.r.SubwayRepositoryTests            : Starting SubwayRepositoryTests using Java 17.0.11 with PID 100656 (started by user in C:\Users\user\Desktop\b03)
-[2024-06-10 21:10:28.297] DEBUG 100656 --- [           main] o.z.b.r.SubwayRepositoryTests            : Running with Spring Boot v3.3.0, Spring v6.1.8
-[2024-06-10 21:10:28.298]  INFO 100656 --- [           main] o.z.b.r.SubwayRepositoryTests            : No active profile set, falling back to 1 default profile: "default"
-[2024-06-10 21:10:28.914]  INFO 100656 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-[2024-06-10 21:10:28.976]  INFO 100656 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
-[2024-06-10 21:10:29.511]  INFO 100656 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
-[2024-06-10 21:10:29.609]  INFO 100656 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
-[2024-06-10 21:10:29.651]  INFO 100656 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
-[2024-06-10 21:10:30.069]  INFO 100656 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-[2024-06-10 21:10:30.097]  INFO 100656 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
-[2024-06-10 21:10:30.169]  INFO 100656 --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4ec0229c
-[2024-06-10 21:10:30.170]  INFO 100656 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
-[2024-06-10 21:10:31.008]  INFO 100656 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-[2024-06-10 21:10:31.063]  INFO 100656 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-[2024-06-10 21:10:31.246]  WARN 100656 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[2024-06-10 21:10:31.943]  INFO 100656 --- [           main] o.z.b.r.SubwayRepositoryTests            : Started SubwayRepositoryTests in 3.846 seconds (process running for 5.099)
-[2024-06-10 21:10:32.554]  INFO 100656 --- [           main] o.z.b.r.SubwayRepositoryTests            : Subway(LINE_NUM=분당선, USE_MON=3월, SUB_STA_NM=태평역)
-[2024-06-10 21:10:32.563]  INFO 100656 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-[2024-06-10 21:10:32.565]  INFO 100656 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
-[2024-06-10 21:10:32.568]  INFO 100656 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+[2024-06-25 18:00:27.425]  INFO 24416 --- [  restartedMain] o.z.b.B03Application                     : Starting B03Application using Java 17.0.11 with PID 24416 (C:\Users\user\Desktop\b03\out\production\classes started by user in C:\Users\user\Desktop\b03)
+[2024-06-25 18:00:27.437] DEBUG 24416 --- [  restartedMain] o.z.b.B03Application                     : Running with Spring Boot v3.3.0, Spring v6.1.8
+[2024-06-25 18:00:27.439]  INFO 24416 --- [  restartedMain] o.z.b.B03Application                     : No active profile set, falling back to 1 default profile: "default"
+[2024-06-25 18:00:27.477]  INFO 24416 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-06-25 18:00:27.477]  INFO 24416 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-06-25 18:00:28.171]  INFO 24416 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-06-25 18:00:28.223]  INFO 24416 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+[2024-06-25 18:00:28.902]  INFO 24416 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2024-06-25 18:00:28.913]  INFO 24416 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2024-06-25 18:00:28.915]  INFO 24416 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2024-06-25 18:00:28.916]  INFO 24416 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.24]
+[2024-06-25 18:00:28.971]  INFO 24416 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2024-06-25 18:00:28.973]  INFO 24416 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1493 ms
+[2024-06-25 18:00:29.158]  INFO 24416 --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-06-25 18:00:29.246]  INFO 24416 --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.2.Final
+[2024-06-25 18:00:29.286]  INFO 24416 --- [  restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+[2024-06-25 18:00:29.582]  INFO 24416 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-06-25 18:00:29.611]  INFO 24416 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+[2024-06-25 18:00:29.683]  INFO 24416 --- [  restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@61be5273
+[2024-06-25 18:00:29.684]  INFO 24416 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+[2024-06-25 18:00:30.416]  INFO 24416 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-06-25 18:00:30.473]  INFO 24416 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-06-25 18:00:30.545]  WARN 24416 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-06-25 18:00:31.059]  INFO 24416 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2024-06-25 18:00:31.071]  INFO 24416 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2024-06-25 18:00:31.089]  INFO 24416 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2024-06-25 18:00:31.098]  INFO 24416 --- [  restartedMain] o.z.b.B03Application                     : Started B03Application in 3.988 seconds (process running for 4.845)
